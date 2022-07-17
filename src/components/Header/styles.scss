@@ -1,0 +1,22 @@
+@import '../../constants/variables.scss';
+
+.logo {
+		font-family: $primary-font;
+		margin: 0;
+		font-size: 30px;
+		margin-right: 10px;
+
+		@media (min-width: 768px) {
+				font-size: 35px;
+		}
+}
+
+.container {
+		display: flex;
+		margin: 20px;
+		justify-content: flex-end;
+
+		@media (min-width: 768px) {
+				justify-content: space-between;
+		}
+}
