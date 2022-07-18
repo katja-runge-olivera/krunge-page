@@ -1,10 +1,9 @@
 import React from 'react';
-import './styles.scss';
-
+import * as styles from './styles.module.scss';
 
 export const Header = () => (
-					<div className='container'>
-						<p className="logo">Krunge.</p>
+					<div className={styles.container}>
+						<p className={styles.logo}>Krunge.</p>
 			<div>
 								<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<circle cx="21" cy="21" r="21" fill="#F7F2C6"/>

@@ -3,7 +3,7 @@ import { Header } from "../components/Header"
 import { Head } from "../components/Head";
 import { Hero } from "../components/Hero";
 import { Skills } from "../components/Skills";
-import './styles.scss';
+import './styles.module.scss';
 
 
 // markup

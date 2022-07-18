@@ -1,5 +1,5 @@
 import React from "react";
-import './styles.scss';
+import * as styles from './styles.module.scss';
 
 const skillsList = [
 		"Javascript",
@@ -18,14 +18,14 @@ const skillsList = [
 ];
 
 export const Skills = () => (
-		<div className="root">
-						<div className="rectangle">
+		<div className={styles.root}>
+						<div className={styles.rectangle}>
 								<ul className="list">
 								{skillsList.map((item, index) => (
-													<li className="listItem">{skillsList[index]}</li>
+													<li className={styles.listItem}>{skillsList[index]}</li>
 								))}
 								</ul>
 						</div>
-						<h2 className="skillsTitle">Skills</h2>
+						<h2 className={styles.skillsTitle}>Skills</h2>
 		</div>
 );

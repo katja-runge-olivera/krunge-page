@@ -1,5 +1,5 @@
 import React from "react";
-import './styles.scss';
+import * as styles from './styles.module.scss';
 
 export const Hero = () => (
 		<div className="content">
