@@ -20,7 +20,7 @@ const skillsList = [
 export const Skills = () => (
 		<div className={styles.root}>
 						<div className={styles.rectangle}>
-								<ul className="list">
+								<ul className={styles.list}>
 								{skillsList.map((item, index) => (
 													<li className={styles.listItem}>{skillsList[index]}</li>
 								))}
