@@ -8,15 +8,16 @@ import './styles.module.scss';
 
 // markup
 const IndexPage = () => {
-  return (
-				<React.Fragment>
-								<Head />
-								<body>
-											<Header />
-											<Hero />
-											<Skills />
-								</body>
-				</React.Fragment>
-)};
+	return (
+		<React.Fragment>
+			<Head />
+			<body>
+				<Header />
+				<Hero />
+				<Skills />
+			</body>
+		</React.Fragment>
+	)
+};
 
 export default IndexPage
