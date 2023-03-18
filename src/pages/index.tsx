@@ -6,7 +6,6 @@ import { Skills } from "../components/Skills";
 import './styles.module.scss';
 
 
-// markup
 const IndexPage = () => {
 	return (
 		<React.Fragment>

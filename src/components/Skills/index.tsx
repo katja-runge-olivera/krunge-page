@@ -5,16 +5,15 @@ const skillsList = [
 	"Javascript",
 	"Typescript",
 	"React",
-	"Gatsby",
 	"HTML, CSS",
+	"Gatsby",
 	"UX/UI",
-	"Design",
 	"A/B testing",
 	"Problem-solving",
 	"Design thinking",
 	"Adobe Suite",
 	"Figma",
-	"Stakeholder management and communication"
+	"Stakeholder management"
 ];
 
 export const Skills = () => (
@@ -26,6 +25,5 @@ export const Skills = () => (
 				))}
 			</ul>
 		</div>
-		<h2 className={styles.skillsTitle}>Skills</h2>
 	</div>
 );
